@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - MaestLog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: #1d1d1f;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #007aff;
+            border-bottom: 2px solid #007aff;
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        .app-description {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #007aff;
+        }
+        .feature-card h3 {
+            color: #1d1d1f;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-section {
+            background: #007aff;
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .contact-button {
+            display: inline-block;
+            background: white;
+            color: #007aff;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+        .contact-button:hover {
+            transform: translateY(-2px);
+        }
+        .faq-item {
+            background: #f8f9fa;
+            margin: 15px 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .faq-question {
+            background: #e9ecef;
+            padding: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .faq-question:hover {
+            background: #dee2e6;
+        }
+        .faq-answer {
+            padding: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+        .legal-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .legal-link {
+            background: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .legal-link:hover {
+            background: #5a6268;
+        }
+        .back-link {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .back-link a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        .alert-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MaestLog</h1>
+        <p class="subtitle">Support & Help Center</p>
+
+        <div class="app-description">
+            <h2 style="border: none; margin-top: 0;">About MaestLog</h2>
+            <p style="font-size: 18px; line-height: 1.8;">
+                <strong>MaestLog</strong> is your personal symphony journal app designed for documenting and organizing classical music experiences.
+                Whether you're attending concerts, listening to recordings, or studying compositions, MaestLog helps you capture your musical journey
+                with detailed notes, ratings, and cherished memories.
+            </p>
+        </div>
+
+        <h2>Key Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Musical Entries</h3>
+                <p>Log your symphony experiences with detailed notes about composers, performers, and your personal impressions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Rating System</h3>
+                <p>Rate your experiences and build a personal database of your favorite classical music moments.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Timeline View</h3>
+                <p>Track your musical journey over time and see how your tastes and preferences evolve.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Search & Organization</h3>
+                <p>Easily find recorded pieces by composer, genre, rating, and organize your musical experiences.</p>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2 style="border: none; color: white; margin-top: 0;">Support & Contact</h2>
+            <p>Have questions or feedback about MaestLog?<br>We're here to help you with any issues or suggestions.</p>
+            <a href="mailto:sho.yuba48@gmail.com" class="contact-button">Contact Support</a>
+        </div>
+
+        <h2>Frequently Asked Questions (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Q: How do I start logging my first symphony experience?
+            </div>
+            <div class="faq-answer">
+                A: Simply open MaestLog and tap the "+" button to create a new entry. Fill in details about the composer, symphony, performance, and your personal thoughts and impressions.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Q: Is my data synchronized across devices?
+            </div>
+            <div class="faq-answer">
+                A: Yes, your data is stored securely in the cloud and can be accessed across your devices when signed in to the same account.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Q: Can I export my symphony journal?
+            </div>
+            <div class="faq-answer">
+                A: Yes, you can export your entries in various formats (PDF, CSV, JSON) for backup or sharing purposes through the app settings menu.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Q: What should I do if the app won't start or runs slowly?
+            </div>
+            <div class="faq-answer">
+                A: First, try force-closing the app and restarting it. If the problem persists, restart your device or contact our support team for assistance.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Q: What if my data disappears or gets lost?
+            </div>
+            <div class="faq-answer">
+                A: If you're signed in to your account, your data is automatically synchronized to the cloud. For local data only, we recommend regular backups. Contact support if you experience data loss.
+            </div>
+        </div>
+
+
+        <h2>Legal Documents</h2>
+        <div class="legal-links">
+            <a href="privacy-policy-en.html" class="legal-link">Privacy Policy</a>
+            <a href="terms-of-service-en.html" class="legal-link">Terms of Service</a>
+            <a href="data-handling-en.html" class="legal-link">Data Handling Policy</a>
+        </div>
+
+        <div class="back-link">
+            <a href="index.html">← Back to Main Page</a>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e7; color: #666;">
+            <p>© 2025 MaestLog. All rights reserved.<br>
+            Version 1.0 | Last updated: 2025-09-24</p>
+        </div>
+    </div>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const isVisible = answer.style.display === 'block';
+
+                // Hide all other answers
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.style.display = 'none';
+                });
+
+                // Toggle current answer
+                answer.style.display = isVisible ? 'none' : 'block';
+            });
+        });
+
+        // Initially hide all answers
+        document.querySelectorAll('.faq-answer').forEach(answer => {
+            answer.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
